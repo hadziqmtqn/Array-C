@@ -30,3 +30,4 @@ int main() {
   }
  }
 }
+//sumber https://www.aneiqbal.com/2017/03/program-angka-prima-bahasa-c.html
