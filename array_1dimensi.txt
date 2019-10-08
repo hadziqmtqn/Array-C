@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+int A[10] = {10,11,12,13,14,15,16,17,18,19};
+int i = 3;
+printf("Data indeks ke %i adalah %i", i, A[3]);
+return 0;
+}

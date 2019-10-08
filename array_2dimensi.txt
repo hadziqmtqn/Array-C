@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i=0, j;
+    int A[3][4] = {{1, 2, 4, 3}, {5, 8, 7, 6}, {12, 10, 11, 9}};
+    for(i=0; i<3; i++){
+        for(j=0; j<4; j++){
+            printf("Data pada indeks ke [%i][%i] adalah %i\n", i, j, A[i][j]);
+        }
+    }
+  return 0;
+}
